@@ -22,7 +22,7 @@ local rrr3 = 43
 
 local Colors = {
     
-    ['Los Angeles Comets'] = {
+    ['Washington Warriors'] = {
 
         -- c1
         JerseyShirt = Color3.fromRGB(c1, cc1, ccc1),
@@ -55,7 +55,7 @@ local Colors = {
         CenterIcon = 'rbxassetid://12902928817'    
     },
     
-    ['Kansas City Cherokees'] = {
+    ['Baltimore Royals'] = {
                 -- c1
         JerseyShirt = Color3.fromRGB(r1,rr1,rrr1),
         ShoulderPads = Color3.fromRGB(r1,rr1,rrr1),
