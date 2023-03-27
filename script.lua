@@ -1,89 +1,90 @@
 local Teams = game:GetService('Teams')
 local Players = game:GetService('Players')
-local c1 = 255
-local cc1 = 255
-local ccc1 = 255
-local c2 = 154
+local c1 = 1
+local cc1 = 111
+local ccc1 = 113
+local c2 = 1
 local cc2 = 0
 local ccc2 = 0
-local c3 = 154
-local cc3 = 0
-local ccc3 = 0
+local c3 = 255
+local cc3 = 255
+local ccc3 = 255
 
-local r1 = 150
-local rr1 = 7
-local rrr1 = 9
-local r2 = 252
-local rr2 = 202
-local rrr2 = 43
-local r3 = 252
-local rr3 = 202
-local rrr3 = 43
+local r1 = 214
+local rr1 = 200
+local rrr1 = 162
+local r2 = 255
+local rr2 = 255
+local rrr2 = 255
+local r3 = 140
+local rr3 = 34
+local rrr3 = 50
 
 local Colors = {
     
-    ['Washington Warriors'] = {
+    ['Arizona Heat'] = {
 
         -- c1
         JerseyShirt = Color3.fromRGB(c1, cc1, ccc1),
         ShoulderPads = Color3.fromRGB(c1, cc1, ccc1),  
-        Helmet = Color3.fromRGB(c1, cc1, ccc1),
         LeftPit = Color3.fromRGB(c1, cc1, ccc1),
         RightPit = Color3.fromRGB(c1, cc1, ccc1),
-        LeftShoe = Color3.fromRGB(c1, cc1, ccc1),
-        RightShoe = Color3.fromRGB(c1, cc1, ccc1),
         RightPants = Color3.fromRGB(c1,cc1,ccc1),
         LeftPants = Color3.fromRGB(c1,cc1,ccc1),
-        RightSock = Color3.fromRGB(c1,cc1,ccc1),
-        LeftSock = Color3.fromRGB(c1,cc1,ccc1),
-        LeftShortSock = Color3.fromRGB(c1,cc1,ccc1),
-        RightShortSock = Color3.fromRGB(c1,cc1,ccc1),
+
 
         -- c2
+        Helmet = Color3.fromRGB(c2, cc2, ccc2),
+        LeftShoe = Color3.fromRGB(c2, cc2, ccc2),
+        RightShoe = Color3.fromRGB(c2, cc2, ccc2),
+        RightSock = Color3.fromRGB(c2,cc2,ccc2),
+        LeftSock = Color3.fromRGB(c2,cc2,ccc2),
+        LeftShortSock = Color3.fromRGB(c2,cc2,ccc2),
+        RightShortSock = Color3.fromRGB(c2,cc2,ccc2),
         LeftSleeve = Color3.fromRGB(c2,cc2,ccc2),
         RightSleeve = Color3.fromRGB(c2,cc2,ccc2),
         NumFill = Color3.fromRGB(c2,cc2,ccc2),
-        NumStroke = Color3.fromRGB(c2,cc2,ccc2),
+        LeftGlove = Color3.fromRGB(c2,cc2,ccc2),
+        RightGlove = Color3.fromRGB(c2,cc2,ccc2),
 
         -- c3
-        LeftGlove = Color3.fromRGB(c3,cc3,ccc3),
-        RightGlove = Color3.fromRGB(c3,cc3,ccc3),
+        NumStroke = Color3.fromRGB(c3,cc3,ccc3),
 
-        Texture = 'rbxassetid://12913068557',
-        TeamName = 'STANFORD',
-        HelmetIcon = 'rbxassetid://12913012899',
+        Texture = 'rbxassetid://12921753318',
+        TeamName = 'COASTAL',
+        HelmetIcon = 'rbxassetid://12921752572',
         CenterIcon = 'rbxassetid://12902928817'    
     },
     
-    ['Baltimore Royals'] = {
-                -- c1
-        JerseyShirt = Color3.fromRGB(r1,rr1,rrr1),
-        ShoulderPads = Color3.fromRGB(r1,rr1,rrr1),
-        LeftPit = Color3.fromRGB(r1,rr1,rrr1),
-        RightPit = Color3.fromRGB(r1,rr1,rrr1),
-        LeftShoe = Color3.fromRGB(r1,rr1,rrr1),
-        RightShoe = Color3.fromRGB(r1,rr1,rrr1),
+    ['Cincinnati Tigers'] = {
+        -- c1
         RightPants = Color3.fromRGB(r1,rr1,rrr1),
         LeftPants = Color3.fromRGB(r1,rr1,rrr1),
         Helmet = Color3.fromRGB(r1,rr1,rrr1),
-        LeftShortSock = Color3.fromRGB(r1,rr1,rrr1),
-        RightShortSock = Color3.fromRGB(r1,rr1,rrr1),
-        RightSock = Color3.fromRGB(r1,rr1,rrr1),
-        LeftSock = Color3.fromRGB(r1,rr1,rrr1),
+        NumStroke = Color3.fromRGB(r1,rr1,rrr1),
 
         -- c2
-        LeftSleeve = Color3.fromRGB(r2,rr2,rrr2),
-        RightSleeve = Color3.fromRGB(r2,rr2,rrr2),
-        NumFill = Color3.fromRGB(r2,rr2,rrr2),
-        NumStroke = Color3.fromRGB(r2,rr2,rrr2),
+        JerseyShirt = Color3.fromRGB(r2,rr2,rrr2),
+        ShoulderPads = Color3.fromRGB(r2,rr2,rrr2),
+        LeftPit = Color3.fromRGB(r2,rr2,rrr2),
+        RightPit = Color3.fromRGB(r2,rr2,rrr2),
+        LeftShoe = Color3.fromRGB(r2,rr2,rrr2),
+        RightShoe = Color3.fromRGB(r2,rr2,rrr2),
+        LeftShortSock = Color3.fromRGB(r2,rr2,rrr2),
+        RightShortSock = Color3.fromRGB(r2,rr2,rrr2),
+        RightSock = Color3.fromRGB(r2,rr2,rrr2),
+        LeftSock = Color3.fromRGB(r2,rr2,rrr2),
+        LeftGlove = Color3.fromRGB(r2,rr2,rrr2),
+        RightGlove = Color3.fromRGB(r2,rr2,rrr2),
 
         -- c3
-        LeftGlove = Color3.fromRGB(r3,rr3,rrr3),
-        RightGlove = Color3.fromRGB(r3,rr3,rrr3),
+        LeftSleeve = Color3.fromRGB(r3,rr3,rrr3),
+        RightSleeve = Color3.fromRGB(r3,rr3,rrr3),
+        NumFill = Color3.fromRGB(r3,rr3,rrr3),
 
-        Texture = 'rbxassetid://12913096346',
-        TeamName = 'IOWA',
-        HelmetIcon = 'rbxassetid://12913013764',
+        Texture = 'rbxassetid://12921810362',
+        TeamName = 'BOSTON',
+        HelmetIcon = 'rbxassetid://12921799971',
         CenterIcon = 'rbxassetid://12902928817'    
     }
 }
