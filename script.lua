@@ -51,7 +51,7 @@ local Colors = {
         NumStroke = Color3.fromRGB(c3,cc3,ccc3),
 
         Texture = 'rbxassetid://12921753318',
-        TeamName = 'COASTAL',
+        TeamName = 'COASTAL CAROLINA',
         HelmetIcon = 'rbxassetid://12921752572',
         CenterIcon = 'rbxassetid://12902928817'    
     },
