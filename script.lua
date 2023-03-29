@@ -1,28 +1,28 @@
 local Teams = game:GetService('Teams')
 local Players = game:GetService('Players')
-local c1 = 1
-local cc1 = 111
-local ccc1 = 113
-local c2 = 1
-local cc2 = 0
-local ccc2 = 0
-local c3 = 255
-local cc3 = 255
-local ccc3 = 255
+local c1 = 0
+local cc1 = 78
+local ccc1 = 182
+local c2 = 255
+local cc2 = 255
+local ccc2 = 255
+local c3 = 226
+local cc3 = 0
+local ccc3 = 5
 
-local r1 = 214
-local rr1 = 200
-local rrr1 = 162
+local r1 = 173
+local rr1 = 155
+local rrr1 = 107
 local r2 = 255
 local rr2 = 255
 local rrr2 = 255
-local r3 = 140
-local rr3 = 34
-local rrr3 = 50
+local r3 = 0
+local rr3 = 0
+local rrr3 = 0
 
 local Colors = {
     
-    ['Carolina Predators'] = {
+    ['Dallas Outlaws'] = {
 
         -- c1
         JerseyShirt = Color3.fromRGB(c1, cc1, ccc1),
@@ -31,63 +31,63 @@ local Colors = {
         RightPit = Color3.fromRGB(c1, cc1, ccc1),
         RightPants = Color3.fromRGB(c1,cc1,ccc1),
         LeftPants = Color3.fromRGB(c1,cc1,ccc1),
-
+        Helmet = Color3.fromRGB(c1, cc1, ccc1),
 
         -- c2
-        Helmet = Color3.fromRGB(c2, cc2, ccc2),
         LeftShoe = Color3.fromRGB(c2, cc2, ccc2),
         RightShoe = Color3.fromRGB(c2, cc2, ccc2),
         RightSock = Color3.fromRGB(c2,cc2,ccc2),
         LeftSock = Color3.fromRGB(c2,cc2,ccc2),
         LeftShortSock = Color3.fromRGB(c2,cc2,ccc2),
         RightShortSock = Color3.fromRGB(c2,cc2,ccc2),
-        LeftSleeve = Color3.fromRGB(c2,cc2,ccc2),
-        RightSleeve = Color3.fromRGB(c2,cc2,ccc2),
         NumFill = Color3.fromRGB(c2,cc2,ccc2),
-        LeftGlove = Color3.fromRGB(c2,cc2,ccc2),
-        RightGlove = Color3.fromRGB(c2,cc2,ccc2),
 
         -- c3
+        LeftSleeve = Color3.fromRGB(c3,cc3,ccc3),
+        RightSleeve = Color3.fromRGB(c3,cc3,ccc3),
         NumStroke = Color3.fromRGB(c3,cc3,ccc3),
+        LeftGlove = Color3.fromRGB(c3,cc3,ccc3),
+        RightGlove = Color3.fromRGB(c3,cc3,ccc3),
 
-        Texture = 'rbxassetid://12921753318',
-        TeamName = 'COASTAL',
-        HelmetIcon = 'rbxassetid://12921752572',
+        Texture = 'rbxassetid://12930862213',
+        TeamName = 'KANSAS',
+        HelmetIcon = 'rbxassetid://12930865259',
         CenterIcon = 'rbxassetid://12902928817'    
     },
     
-    ['New England Nationals'] = {
+    ['Los Angeles Comets'] = {
         -- c1
         RightPants = Color3.fromRGB(r1,rr1,rrr1),
         LeftPants = Color3.fromRGB(r1,rr1,rrr1),
         Helmet = Color3.fromRGB(r1,rr1,rrr1),
-        NumStroke = Color3.fromRGB(r1,rr1,rrr1),
+        JerseyShirt = Color3.fromRGB(r1,rr1,rrr1),
+        ShoulderPads = Color3.fromRGB(r1,rr1,rrr1),
 
         -- c2
-        JerseyShirt = Color3.fromRGB(r2,rr2,rrr2),
-        ShoulderPads = Color3.fromRGB(r2,rr2,rrr2),
-        LeftPit = Color3.fromRGB(r2,rr2,rrr2),
-        RightPit = Color3.fromRGB(r2,rr2,rrr2),
-        LeftShoe = Color3.fromRGB(r2,rr2,rrr2),
-        RightShoe = Color3.fromRGB(r2,rr2,rrr2),
-        LeftShortSock = Color3.fromRGB(r2,rr2,rrr2),
-        RightShortSock = Color3.fromRGB(r2,rr2,rrr2),
-        RightSock = Color3.fromRGB(r2,rr2,rrr2),
-        LeftSock = Color3.fromRGB(r2,rr2,rrr2),
-        LeftGlove = Color3.fromRGB(r2,rr2,rrr2),
-        RightGlove = Color3.fromRGB(r2,rr2,rrr2),
+        NumStroke = Color3.fromRGB(r2,rr2,rrr2),
 
         -- c3
         LeftSleeve = Color3.fromRGB(r3,rr3,rrr3),
         RightSleeve = Color3.fromRGB(r3,rr3,rrr3),
         NumFill = Color3.fromRGB(r3,rr3,rrr3),
+        LeftPit = Color3.fromRGB(r3,rr3,rrr3),
+        RightPit = Color3.fromRGB(r3,rr3,rrr3),
+        LeftShoe = Color3.fromRGB(r3,rr3,rrr3),
+        RightShoe = Color3.fromRGB(r3,rr3,rrr3),
+        LeftShortSock = Color3.fromRGB(r3,rr3,rrr3),
+        RightShortSock = Color3.fromRGB(r3,rr3,rrr3),
+        RightSock = Color3.fromRGB(r3,rr3,rrr3),
+        LeftSock = Color3.fromRGB(r3,rr3,rrr3),
+        LeftGlove = Color3.fromRGB(r3,rr3,rrr3),
+        RightGlove = Color3.fromRGB(r3,rr3,rrr3),
 
-        Texture = 'rbxassetid://12921810362',
-        TeamName = 'BOSTON',
-        HelmetIcon = 'rbxassetid://12921799971',
+        Texture = 'rbxassetid://12930878414',
+        TeamName = 'VANDERBILT',
+        HelmetIcon = 'rbxassetid://12930877865',
         CenterIcon = 'rbxassetid://12902928817'    
     }
 }
+
 
 local function EditPlayerUniform(Player)
     local Color = Colors[Player.Team.Name]
