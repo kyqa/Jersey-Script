@@ -22,7 +22,7 @@ local rrr3 = 0
 
 local Colors = {
     
-    ['Cincinnati Tigers'] = {
+    ['Seattle Cyclones'] = {
 
         -- c1
         JerseyShirt = Color3.fromRGB(c1, cc1, ccc1),
@@ -55,7 +55,7 @@ local Colors = {
         CenterIcon = 'rbxassetid://12902928817'    
     },
     
-    ['Cleveland Braves'] = {
+    ['Kansas City Cherokees'] = {
         -- c1
         RightPants = Color3.fromRGB(r1,rr1,rrr1),
         LeftPants = Color3.fromRGB(r1,rr1,rrr1),
