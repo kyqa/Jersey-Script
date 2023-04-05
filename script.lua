@@ -1,27 +1,5 @@
 local Teams = game:GetService('Teams')
 local Players = game:GetService('Players')
-local c1 = 221
-local cc1 = 66
-local ccc1 = 1
-local c2 = 255
-local cc2 = 255
-local ccc2 = 255
-local c3 = 0
-local cc3 = 0
-local ccc3 = 0
-
-local r1 = 16
-local rr1 = 71
-local rrr1 = 52
-local r2 = 255
-local rr2 = 255
-local rrr2 = 255
-local r3 = 255
-local rr3 = 255
-local rrr3 = 255
-
-local Colors = {
-    
 local c1 = 3
 local cc1 = 31
 local ccc1 = 75
@@ -110,7 +88,6 @@ local Colors = {
         
     }
 }
-
 
 local function EditPlayerUniform(Player)
     local Color = Colors[Player.Team.Name]
