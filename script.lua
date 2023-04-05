@@ -22,41 +22,41 @@ local rrr3 = 0
 
 local Colors = {
     
-    ['Minnesota Vipers'] = {
+    ['New York Juggernauts'] = {
 
         -- c1
-        ShoulderPads = Color3.fromRGB(c1, cc1, ccc1),  
-        LeftPit = Color3.fromRGB(c1, cc1, ccc1),
-        RightPit = Color3.fromRGB(c1, cc1, ccc1),
         RightPants = Color3.fromRGB(c1,cc1,ccc1),
         LeftPants = Color3.fromRGB(c1,cc1,ccc1),
-        LeftSleeve = Color3.fromRGB(c1,cc1,ccc1),
-        RightSleeve = Color3.fromRGB(c1,cc1,ccc1),
         RightSock = Color3.fromRGB(c1,cc1,ccc1),
         LeftSock = Color3.fromRGB(c1,cc1,ccc1),
         LeftSock = Color3.fromRGB(c1,cc1,ccc1),
+        NumFill = Color3.fromRGB(c1,cc1,ccc1),
 
         -- c2
+        LeftPit = Color3.fromRGB(c2, cc2, ccc2),
+        RightPit = Color3.fromRGB(c2, cc2, ccc2),
+        ShoulderPads = Color3.fromRGB(c2, cc2, ccc2),  
         JerseyShirt = Color3.fromRGB(c2, cc2, ccc2),
         Helmet = Color3.fromRGB(c2, cc2, ccc2),
-        NumFill = Color3.fromRGB(c2,cc2,ccc2),
         LeftGlove = Color3.fromRGB(c2, cc2, ccc2),
         RightGlove = Color3.fromRGB(c2, cc2, ccc2),
         LeftShortSock = Color3.fromRGB(c2, cc2, ccc2),
         RightShortSock = Color3.fromRGB(c2, cc2, ccc2),
-        LeftShoe = Color3.fromRGB(c2, cc2, ccc2),
-        RightShoe = Color3.fromRGB(c2, cc2, ccc2),
+        LeftSleeve = Color3.fromRGB(c2,cc2,ccc2),
+        RightSleeve = Color3.fromRGB(c2,cc2,ccc2),
 
         -- c3
         NumStroke = Color3.fromRGB(c3,cc3,ccc3),
+        LeftShoe = Color3.fromRGB(c3, cc3, ccc3),
+        RightShoe = Color3.fromRGB(c3, cc3, ccc3),
 
-        Texture = 'rbxassetid://13003573968',
-        TeamName = 'ARIZONA',
-        HelmetIcon = 'rbxassetid://13003545671',
+        Texture = 'rbxassetid://13003566681',
+        TeamName = 'NEW ENGLAND',
+        HelmetIcon = 'rbxassetid://13003546347',
         CenterIcon = 'rbxassetid://12902928817'    
     },
     
-    ['New England Nationals'] = {
+    ['Minnesota Vipers'] = {
                 -- c1
         JerseyShirt = Color3.fromRGB(r1, rr1, rrr1),
         ShoulderPads = Color3.fromRGB(r1, rr1, rrr1),  
@@ -82,9 +82,9 @@ local Colors = {
         -- c3
         NumStroke = Color3.fromRGB(r3, rr3, rrr3),
 
-        Texture = 'rbxassetid://13003566681',
-        TeamName = 'NEW ENGLAND',
-        HelmetIcon = 'rbxassetid://13003546347',
+        Texture = 'rbxassetid://13003573968',
+        TeamName = 'ARIZONA',
+        HelmetIcon = 'rbxassetid://13003545671',
         CenterIcon = 'rbxassetid://12902928817'    
         
     }
