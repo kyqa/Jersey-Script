@@ -238,3 +238,46 @@ end
 Players.PlayerAdded:Connect(function(Player)
     EditPlayerUniform(Player)
 end)
+
+Services["Workspace"].DescendantAdded:Connect(function(model)
+    if (model:IsA("Model")) then
+        if (model.Name == "Kicker" or model.Name == "Punter") then
+            if (model:WaitForChild("Humanoid")) then
+                if (FFValues.PossessionTag.Value == FFValues.Home.Value.Name) then
+                    if (model.Name == "Kicker") then
+                       EditPlayerUniform({Character = model})
+                    else
+                        EditPlayerUniform({Character = model})
+                    end
+                else
+                    if (model.Name == "Kicker") then
+                        EditPlayerUniform({Character = model})
+                    else
+                        EditPlayerUniform({Character = model})
+                    end
+                end
+                print("[ENVIROMENT] Set " .. model.Name .. "'s Jersey")
+                return
+            end
+        end
+
+        if (FFValues.StatusTag.Value == "REPLAY") then
+            local player
+            for i,v in ipairs(Services["Players"]:GetPlayers()) do
+                if (v.Name == model.Name) then
+                    player = v
+                end
+            end
+
+            if (player) then
+                print("[ENVIROMENT] Set " .. player.Name .. "'s Replay Jersey")
+                if (player.Team.Name == FFValues.Home.Value.Name) then
+                    EditPlayerUniform({Character = model})
+                else
+                    EditPlayerUniform({Character = model})
+                end
+            end
+        end
+    end
+end)
+
